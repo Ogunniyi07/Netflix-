@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
@@ -6,6 +6,41 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Netflix Clone</title>
+        <script>
+               (function (){
+        var title = [
+            "Stanger Things",
+            "Money Heist",
+            "Les gardiens de la justice",
+            "HellBound",
+            "Archive 81",
+            "Cobra Kai",
+        ],
+        i = 0;
+        setInterval(function(){
+            $('.text h1').fadeOut(function(){
+                $(this).html(title[(i = (i + 1) % title.length)]).fadeIn();
+            });
+        }, 5000)
+    })();
+
+    (function (){
+        var description = [
+            "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+            "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: n...",
+            "When their seemingly fearless leader self-destructs, a team of troubled superheroes must confront festering evil in the world — and in themselves.",
+            "Unearthly beings deliver bloody condemnations, sending individuals to hell and giving rise to a religious group founded on the idea of divine justice.",
+            "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
+            "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for r...",
+        ],
+        i = 0;
+        setInterval(function(){
+            $('.home-text1 p').fadeOut(function(){
+                $(this).html(description[(i = (i + 1) % description.length)]).fadeIn();
+            });
+        }, 5000)
+    })();
+        </script>
     </head>
     <body>
         <div class="container">
@@ -25,14 +60,14 @@
             <div class="banner">
                 <div class="banner-content">
                     <div class="text">
-                        <h1>Stranger Things</h1>
+                        <h1></h1>
                     </div>
                     <div class="button">
                         <button>Play</button>
                             <button>My List</button>
                     </div>
                     <div class="home-text1">
-                        <p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.</p>
+                        <p></p>
                     </div>
                 </div>
                 <div class="banner-shadow"></div>
@@ -40,23 +75,206 @@
         </section>
         <div class="row">
             <div class="head">
-                <h2>NETFLIX ORIGINALS</h2>
+                <h1>NETFLIX ORIGINALS</h1>
             </div>
-            <div class="img"></div>
-            <div class="img"></div>
-            <div class="img"></div>
-            <div class="img"></div>
-            <div class="img"></div>
-            <div class="img"></div>
+            <div class="box">
+                <div class="img"><img src="all of us are dead.jpg"/></div>
+                <div class="img"><img src="arcane.jpg"/></div>
+                <div class="img"><img src="archive 81.jpg"/></div>
+                <div class="img"><img src="cobra kai.jpg"/></div>
+                <div class="img"><img src="elite.jpg"/></div>
+                <div class="img"><img src="sex education.jpg"/></div>
+                <div class="img"><img src="ekZobS8isE6mA53RAiGDG93hBxL.jpg"/></div>
+                <div class="img"><img src="salute.jpg"/></div>
+                <div class="img"><img src="silent sea.jpg"/></div>
+                <div class="img"><img src="squid game.jpg"/></div>
+                <div class="img"><img src="stranger things.jpg"/></div>
+                <div class="img"><img src="inventing ganna.jpg"/></div>
+                <div class="img"><img src="justice league.jpg"/></div>
+            </div>
         </div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
+        <div class="row">
+            <div class="head">
+                <h1>Trending Now</h1>
+            </div>
+            <div class="boxx">
+                <div class="img"><img src="21.jpg"/></div>
+                <div class="img"><img src="222.jpg"/></div>
+                <div class="img"><img src="23.jpg"/></div>
+                <div class="img"><img src="24.jpg"/></div>
+                <div class="img"><img src="25.jpg"/></div>
+                <div class="img"><img src="26.jpg"/></div>
+                <div class="img"><img src="27.jpg"/></div>
+                <div class="img"><img src="28.jpg"/></div>
+                <div class="img"><img src="29.jpg"/></div>
+                <div class="img"><img src="291.jpg"/></div>
+                <div class="img"><img src="292.jpg"/></div>
+                <div class="img"><img src="293.jpg"/></div>
+                <div class="img"><img src="294.jpg"/></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="head">
+                <h1>Next Rated</h1>
+            </div>
+            <div class="boxx">
+                <div class="img"><img src="a.jpg"/></div>
+                <div class="img"><img src="b.jpg"/></div>
+                <div class="img"><img src="c.jpg"/></div>
+                <div class="img"><img src="d.jpg"/></div>
+                <div class="img"><img src="e.jpg"/></div>
+                <div class="img"><img src="f.jpg"/></div>
+                <div class="img"><img src="g.jpg"/></div>
+                <div class="img"><img src="h.jpg"/></div>
+                <div class="img"><img src="i.jpg"/></div>
+                <div class="img"><img src="j.jpg"/></div>
+                <div class="img"><img src="k.jpg"/></div>
+                <div class="img"><img src="l.jpg"/></div>
+                <div class="img"><img src="m.jpg"/></div>
+                <div class="img"><img src="n.jpg"/></div>
+                <div class="img"><img src="o.jpg"/></div>
+                <div class="img"><img src="p.jpg"/></div>
+                <div class="img"><img src="q.jpg"/></div>
+                <div class="img"><img src="r.jpg"/></div>
+                <div class="img"><img src="s.jpg"/></div>
+                <div class="img"><img src="t.jpg"/></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="head">
+                <h1>Action Movies</h1>
+            </div>
+            <div class="boxx">
+                <div class="img"><img src="a1.jpg"/></div>
+                <div class="img"><img src="b1.jpg"/></div>
+                <div class="img"><img src="c1.jpg"/></div>
+                <div class="img"><img src="d1.jpg"/></div>
+                <div class="img"><img src="e1.jpg"/></div>
+                <div class="img"><img src="f1.jpg"/></div>
+                <div class="img"><img src="g1.jpg"/></div>
+                <div class="img"><img src="h1.jpg"/></div>
+                <div class="img"><img src="i1.jpg"/></div>
+                <div class="img"><img src="j1.jpg"/></div>
+                <div class="img"><img src="k1.jpg"/></div>
+                <div class="img"><img src="l1.jpg"/></div>
+                <div class="img"><img src="m1.jpg"/></div>
+                <div class="img"><img src="n1.jpg"/></div>
+                <div class="img"><img src="o1.jpg"/></div>
+                <div class="img"><img src="p1.jpg"/></div>
+                <div class="img"><img src="q1.jpg"/></div>
+                <div class="img"><img src="r1.jpg"/></div>
+                <div class="img"><img src="s1.jpg"/></div>
+                <div class="img"><img src="t1.jpg"/></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="head">
+                <h1>Comedy Movies</h1>
+            </div>
+            <div class="boxx">
+                <div class="img"><img src="a11.jpg"/></div>
+                <div class="img"><img src="b11.jpg"/></div>
+                <div class="img"><img src="c11.jpg"/></div>
+                <div class="img"><img src="d11.jpg"/></div>
+                <div class="img"><img src="e11.jpg"/></div>
+                <div class="img"><img src="f11.jpg"/></div>
+                <div class="img"><img src="g11.jpg"/></div>
+                <div class="img"><img src="h11.jpg"/></div>
+                <div class="img"><img src="i11.jpg"/></div>
+                <div class="img"><img src="j11.jpg"/></div>
+                <div class="img"><img src="k11.jpg"/></div>
+                <div class="img"><img src="l11.jpg"/></div>
+                <div class="img"><img src="m11.jpg"/></div>
+                <div class="img"><img src="n11.jpg"/></div>
+                <div class="img"><img src="o11.jpg"/></div>
+                <div class="img"><img src="p11.jpg"/></div>
+                <div class="img"><img src="q11.jpg"/></div>
+                <div class="img"><img src="r11.jpg"/></div>
+                <div class="img"><img src="s11.jpg"/></div>
+                <div class="img"><img src="t11.jpg"/></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="head">
+                <h1>Horror Movies</h1>
+            </div>
+            <div class="boxx">
+                <div class="img"><img src="a111.jpg"/></div>
+                <div class="img"><img src="b111.jpg"/></div>
+                <div class="img"><img src="c111.jpg"/></div>
+                <div class="img"><img src="d111.jpg"/></div>
+                <div class="img"><img src="e111.jpg"/></div>
+                <div class="img"><img src="f111.jpg"/></div>
+                <div class="img"><img src="g111.jpg"/></div>
+                <div class="img"><img src="h111.jpg"/></div>
+                <div class="img"><img src="i111.jpg"/></div>
+                <div class="img"><img src="j111.jpg"/></div>
+                <div class="img"><img src="k111.jpg"/></div>
+                <div class="img"><img src="l111.jpg"/></div>
+                <div class="img"><img src="m111.jpg"/></div>
+                <div class="img"><img src="n111.jpg"/></div>
+                <div class="img"><img src="o111.jpg"/></div>
+                <div class="img"><img src="p111.jpg"/></div>
+                <div class="img"><img src="q111.jpg"/></div>
+                <div class="img"><img src="r111.jpg"/></div>
+                <div class="img"><img src="s111.jpg"/></div>
+                <div class="img"><img src="t111.jpg"/></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="head">
+                <h1>Romance Movies</h1>
+            </div>
+            <div class="boxx">
+                <div class="img"><img src="1a.jpg"/></div>
+                <div class="img"><img src="2a.jpg"/></div>
+                <div class="img"><img src="3a.jpg"/></div>
+                <div class="img"><img src="4a.jpg"/></div>
+                <div class="img"><img src="5a.jpg"/></div>
+                <div class="img"><img src="6a.jpg"/></div>
+                <div class="img"><img src="7a.jpg"/></div>
+                <div class="img"><img src="8a.jpg"/></div>
+                <div class="img"><img src="9a.jpg"/></div>
+                <div class="img"><img src="10a.jpg"/></div>
+                <div class="img"><img src="11a.jpg"/></div>
+                <div class="img"><img src="12a.jpg"/></div>
+                <div class="img"><img src="13a.jpg"/></div>
+                <div class="img"><img src="14a.jpg"/></div>
+                <div class="img"><img src="15a.jpg"/></div>
+                <div class="img"><img src="16a.jpg"/></div>
+                <div class="img"><img src="17a.jpg"/></div>
+                <div class="img"><img src="18a.jpg"/></div>
+                <div class="img"><img src="19a.jpg"/></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="head">
+                <h1>Documentaries</h1>
+            </div>
+            <div class="boxx">
+                <div class="img"><img src="z1.jpg"/></div>
+                <div class="img"><img src="z2.jpg"/></div>
+                <div class="img"><img src="z3.jpg"/></div>
+                <div class="img"><img src="z4.jpg"/></div>
+                <div class="img"><img src="z5.jpg"/></div>
+                <div class="img"><img src="z6.jpg"/></div>
+                <div class="img"><img src="z7.jpg"/></div>
+                <div class="img"><img src="z8.jpg"/></div>
+                <div class="img"><img src="z9.jpg"/></div>
+                <div class="img"><img src="z10.jpg"/></div>
+                <div class="img"><img src="z11.jpg"/></div>
+                <div class="img"><img src="z12.jpg"/></div>
+                <div class="img"><img src="z13.jpg"/></div>
+                <div class="img"><img src="z14.jpg"/></div>
+                <div class="img"><img src="z15.jpg"/></div>
+                <div class="img"><img src="z16.jpg"/></div>
+                <div class="img"><img src="z17.jpg"/></div>
+                <div class="img"><img src="z18.jpg"/></div>
+                <div class="img"><img src="z19.jpg"/></div>
+            </div>
+        </div>
         </div>
     </body>
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
 </html>
