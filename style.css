@@ -50,15 +50,25 @@ nav .navbar .welcome-btn button:hover{
     background-color: #fff;
     color:#000;
 }
-.home .banner{
+.home #banner{
  /*background-image: url("stranger.jpg");*/
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    position:relative;
     height:75vh;
     width:100%;
-}
+}.home .banner{
+       background-image: url("stranger.jpg");
+       background-position: center;
+       background-size:cover;
+       background-attachment: fixed;
+       font-family: 'Ubuntu', sans-serif;
+       height:75vh;
+       width:100%;
+   }
+
 .home .banner-content{
     height:100%;
     width:90%;

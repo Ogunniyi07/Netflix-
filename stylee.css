@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.test{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:24px;
+    font-weight:800;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.test:before{
+    content:'';
+    animation: animate infinite 5s;
+}
+@keyframes animate{
+    0%{
+        content:'Stranger Things';
+    }
+    20%{
+        content:'Les gardiens de la justice';
+    }
+    40%{
+        content:'Money Heist';
+    }
+    60%{
+        content:'HellBound';
+    }
+    80%{
+        content:'Archive 81';
+    }
+    100%{
+        content:'Cobra Kai';
+    }
+}
